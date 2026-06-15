@@ -49,7 +49,7 @@ export const ParticipantesProvider = ({ children }: { children: ReactNode }) => 
     const storedToken = getToken();
     if (!storedToken) return;
 
-    fetch("http://localhost:8000/participantes", {
+    fetch("https://tp-integrador-ia.onrender.com/participantes", {
       headers: {
         Authorization: `Bearer ${storedToken}`,
       },
@@ -76,7 +76,7 @@ export const ParticipantesProvider = ({ children }: { children: ReactNode }) => 
     const storedToken = getToken();
     if (!storedToken) return;
 
-    fetch("http://localhost:8000/participantes", {
+    fetch("https://tp-integrador-ia.onrender.com/participantes", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -105,7 +105,7 @@ export const ParticipantesProvider = ({ children }: { children: ReactNode }) => 
     const storedToken = getToken();
     if (!storedToken) return;
 
-    fetch(`http://localhost:8000/participantes/${id}`, {
+    fetch(`https://tp-integrador-ia.onrender.com/participantes/${id}`, {
       method: "DELETE",
       headers: {
         Authorization: `Bearer ${storedToken}`,
@@ -131,7 +131,7 @@ export const ParticipantesProvider = ({ children }: { children: ReactNode }) => 
     const storedToken = getToken();
     if (!storedToken) return;
 
-    fetch(`http://localhost:8000/participantes/${p.id}`, {
+    fetch(`https://tp-integrador-ia.onrender.com/participantes/${p.id}`, {
       method: "PUT",
       headers: {
         "Content-Type": "application/json",
