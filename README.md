@@ -1,5 +1,5 @@
 # 📋 TP Integrador - Sistema de Gestión de Participantes
-
+LUCAS IBAÑEZ UNICO INTEGRANTE DEL GRUPO 
 > Aplicación web full stack para gestión de participantes de eventos tecnológicos, con autenticación JWT y control de roles (ADMIN / CONSULTA).
 
 ---
